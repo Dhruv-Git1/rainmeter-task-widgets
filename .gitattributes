@@ -1,0 +1,4 @@
+# These files must stay exactly as they are (UTF-16, Windows line endings).
+# Rainmeter will not read them otherwise, so git must never convert them.
+*.ini binary
+*.lua binary
