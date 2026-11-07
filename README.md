@@ -1,5 +1,11 @@
 # Rainmeter Task and Chore widgets
 
+<p align="center">
+  <img src="docs/hero.png" width="900" alt="The Tasks and Chores widgets on a dark purple background. Each row shows a task with a countdown, coloured red, yellow, grey or white depending on how close the deadline is.">
+</p>
+
+<p align="center"><sub>These pictures are real screenshots of the widgets, using made-up example tasks.</sub></p>
+
 Two small panels for your Windows desktop, **Tasks** and **Chores**. They read a plain text to-do
 file (written in Markdown, a simple text format where `- [ ]` means an unticked box) and show the
 open items with a live countdown to each deadline. This repository holds only the two widgets
@@ -21,6 +27,10 @@ These widgets are a customised version of
 - repeating chores such as "every sunday".
 
 ## What the colours mean
+
+<p align="center">
+  <img src="docs/colours.png" width="830" alt="The same task shown four times. Four days before the deadline it is plain. Two days before, it is yellow. Under 24 hours before, it is red. After the deadline, it is still red and says overdue.">
+</p>
 
 | Colour | When |
 | --- | --- |
@@ -66,6 +76,10 @@ it, search for `86400` (the number of seconds in a day) in `Tasks/Tasks.lua` and
    add this for me, and the widgets vanished after a restart until I added it.)
 
 ## Writing items in your to-do file
+
+<p align="center">
+  <img src="docs/typed-to-widget.png" width="900" alt="On the left, a Tasks.md file with items such as 'Finish the slides by 9.11.26'. On the right, the Tasks widget showing those same items with a countdown and a colour for each.">
+</p>
 
 Dates are written **day first** (10.11.26 means 10 November 2026). A date with no time of day counts
 as due at 11:59 pm that day.

@@ -2,3 +2,4 @@
 # Rainmeter will not read them otherwise, so git must never convert them.
 *.ini binary
 *.lua binary
+*.png binary
